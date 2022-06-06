@@ -1,0 +1,96 @@
+header {
+    text-align: center;
+    width: 100%;
+    padding: 32px;
+    color: white;
+    background-color: transparent;
+
+}
+
+body {
+    background-image: url("../assets/desertnight.png");
+    background-color: #414141;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.w3-card {
+    background-color: lightgrey;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.navibar {
+    color: black;
+}
+
+.navibar a {
+    color: white;
+    background-color: black;
+}
+
+.input[type=text], select {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.button {
+    font-size: 15px;
+    width: 150px;
+    height: 44px;
+    color: white;
+    background-color: #483D8B;
+    border: none;
+    border-radius: 22px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #8A2BE2;
+}
+
+.button:active {
+    background-color: lightgrey;
+    transition: none;
+}
+
+a, a:link {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightpink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.p1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    color: lightgrey;
+    background-color: transparent;
+}
