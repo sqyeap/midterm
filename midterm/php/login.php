@@ -58,9 +58,9 @@ if (isset($_POST['submit'])) {
                     <label><b>Password</b></label>
                     <input type="password" id="idpass" name="password" class="w3-input w3-round w3-border" placeholder="Password" required>
                 </p>
-                <p class="squaredThree">
+                <p>
                     <input type="checkbox" id="idremember" name="rememberme" class="w3-check w3-round" onclick="rememberMe()">
-                    <label>Remember Me</label>
+                    <label style="font-family: Georgia; font-size: 14px;">Remember Me</label>
                 </p>
                 <p class="w3-center">
                     <input type="submit" id="submit" name="submit" class="button" value="Login">
